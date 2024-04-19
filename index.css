@@ -1,0 +1,342 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.header {
+    width: 100%;
+    height: 100vh;
+    background: #F8EDF0;
+}
+
+.header .navbar .nav-link {
+    font-family: var(--ff-roboto);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.41px;
+    color: #150101;
+}
+
+.header .navbar .nav-link.active {
+    color: #D23166;
+}
+
+.default-btn {
+    font-family: var(--ff-hm);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22.08px;
+    padding: 14px 50px;
+    border-radius: 5px;
+    color: #FAFAFA;
+    background: #D23166;
+    border: 2px solid #D23166
+}
+
+.default-btn:hover {
+    color: #D23166;
+    background: #FAFAFA;
+}
+
+.mt-50 {
+    margin-top: 50px;
+}
+
+.service {
+    padding: 100px 0;
+}
+
+.service-box {
+    border: 1px solid #00000008;
+    border-radius: 7px;
+    padding: 35px 26px 28px;
+}
+
+.service-box img {
+    max-height: 45px;
+}
+
+.service-box:hover {
+    border-color: transparent;
+    box-shadow: 20px 20px 50px 0px #0000001A;
+}
+
+
+
+
+
+
+/* brown start */
+
+.Brown_Sugar_Oatmea {
+    width: 100%;
+    height: 0 auto;
+    background: #F8EDF0;
+
+
+}
+
+.Oatmea_boxes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.Oateam_h2 {
+    font-family: Hind Madurai;
+    font-size: 44.2px;
+    font-weight: 600;
+    line-height: 48.84px;
+    text-align: left;
+    color: #150101;
+
+}
+
+.Oateam_P {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #150101;
+    padding: 16px 0 30px 0;
+    max-width: 500px;
+
+}
+
+/* brown end */
+
+
+/* Our Product star */
+.header-Our_Product {}
+
+.header-Our_ALL {
+    text-align: center;
+}
+
+.boxes_OUR {
+    display: flex;
+    text-align: start;
+    align-items: center;
+    gap: 85px;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.boxes_OUR-h4 {
+    font-family: Hind Madurai;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 35.88px;
+    text-align: left;
+    color: #000000;
+}
+
+.boxes_OUR-p {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    max-width: 450px;
+
+}
+
+.boxes_OUR-ter {
+    font-family: Hind Madurai;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 35.88px;
+    text-align: left;
+
+}
+
+.boxes_OUR-tere {
+    font-family: Hind Madurai;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 27.6px;
+    text-align: left;
+}
+
+
+.inducatooor {}
+
+.header-Our_li {
+    text-decoration: none;
+    list-style: none;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.09px;
+    text-align: left;
+    color: #000000;
+}
+
+/* Our Product end */
+
+
+/* app stori star */
+
+.header___New {
+    background: #F8EDF0;
+
+}
+
+.header___boxesxs {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.header___box {
+    padding: 89px 0 40px 0;
+}
+
+.header___box1 {}
+
+.header___box1-h2 {
+    font-family: Roboto;
+    font-size: 44.2px;
+    font-weight: 500;
+    line-height: 51.8px;
+    text-align: left;
+
+}
+
+.header___box1-p {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.09px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    max-width: 800px;
+}
+
+.header___box1-h4 {
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 25.78px;
+    text-align: left;
+    cursor: pointer;
+
+}
+
+.header___box1-imgLite {
+    cursor: pointer;
+    row-gap: 21px;
+}
+
+.form-control {
+    border: 2px solid crimson;
+}
+
+
+
+/* app stori end */
+
+
+
+
+/* oxirgi Menu start  */
+.header_oxirgiMenu {
+    background: #0A0808;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+.header_oxirgiBox {
+    padding: 40px 0;
+}
+
+.header_oxirgiBox1 {
+    padding: 100px 0;
+    row-gap: 30px;
+}
+
+
+.header_oxirgi_section {
+    display: flex;
+    padding: 20px 0;
+}
+
+.Header-oxirgiboxes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_oxirgi_P {
+    max-width: 300px;
+
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.76px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: #ffff;
+}
+
+.header_oxirgi_h6 {
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14.06px;
+    text-align: left;
+    color: #ffff;
+}
+
+.header_oxirgi_UL {}
+
+.header_oxirgi_A {
+    text-decoration: none;
+    list-style: none;
+    color: #ffff;
+    padding: 35px 0;
+}
+
+.header_oxirgi_h6 {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.75px;
+    text-align: left;
+    row-gap: 50px;
+
+}
+
+.d-flex {
+    padding: 30px 0;
+}
+
+.btn-outline-success {}
+
+.container1 {
+    width: 650px;
+    margin: 0 auto;
+    text-align: center;
+
+    padding: 35px 0;
+}
+
+.header___h3Songi {
+    font-family: Roboto;
+    font-size: 44px;
+    font-weight: 500;
+    line-height: 51.56px;
+    text-align: center;
+
+}
+
+/* oxirgi Menu end */
